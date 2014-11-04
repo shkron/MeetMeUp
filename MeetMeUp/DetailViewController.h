@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DetailViewController.h
 //  MeetMeUp
 //
 //  Created by Alex on 11/3/14.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface DetailViewController : UIViewController
+@property NSDictionary *eventDetails;
 
 @end
-
